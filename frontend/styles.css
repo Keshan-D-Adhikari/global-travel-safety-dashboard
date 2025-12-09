@@ -1,0 +1,50 @@
+body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;padding:20px;background:#f6f8fb}
+.container{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.search{display:flex;gap:8px;margin:0 auto 20px;max-width:500px;transition:all .4s ease;} .search.top{margin-top:0;}
+input{flex:1;padding:10px;border-radius:6px;border:1px solid #ddd}
+button{padding:10px 14px;border-radius:6px;border:none;background:#39eb25;color:#fff;cursor:pointer}
+#dashboard{margin-top:12px}
+.card{padding:12px;border:1px solid #eee;border-radius:6px;margin-bottom:8px}
+.flag{height:48px}
+.table{width:100%;border-collapse:collapse}
+.table td,.table th{padding:6px;border-bottom:1px solid #eee}
+
+.card {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.flag {
+  width: 80px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.json-box {
+  max-height: 200px;
+  overflow: auto;
+  background: #f3f4f6;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.fade {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.container > h1 {
+  text-align: center;
+  margin: 0 0 16px 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #111827;
+}
